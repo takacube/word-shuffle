@@ -2,7 +2,12 @@
 @model UserModel
 @{
     ViewData["Title"] = "User List";
+    ViewData["User"] = "Sample User";
 }
 <h1>@ViewData["Title"]</h1>
 
 <p>This is a uers page</p>
+
+<div>
+    <p>@ViewData["User"]</p>
+</div>
